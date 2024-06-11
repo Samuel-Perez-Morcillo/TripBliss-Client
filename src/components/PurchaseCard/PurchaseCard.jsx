@@ -16,7 +16,7 @@ const PurchaseCard = ({ purchase }) => {
                             <h1 className="h1-neutral">You are going to visit: <span className="h1-gradient">{purchase.experience.country}</span></h1>
                             <Card.Text className="hotel-name">You are going to stay in: {purchase.experience.hotel}</Card.Text>
                             <Card.Text>
-                                You will see places like:
+                                You will see places like :
                                 <ul className="places-list">
                                     {purchase.experience.places.map((eachPlace, index) => (
                                         <li key={index}>{eachPlace}</li>
