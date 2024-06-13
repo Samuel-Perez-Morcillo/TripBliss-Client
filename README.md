@@ -2,9 +2,14 @@
 
 ## Descripción del Proyecto
 
-TripBliss es una página web desarrollada con un enfoque en la experiencia de usuario para la compra de paquetes de viajes. El proyecto cuenta con una implementación robusta tanto en el Frontend como en el Backend, utilizando tecnologías modernas y eficientes.
+TripBliss es una página web desarrollada con un enfoque en la experiencia de usuario para la compra de paquetes de viajes en los cuales te podrá tocar dependiendo del paquete comprado un cierto tipo de viajes es decir: 
+- **Paquete Standard-> Viajes por el territorio Nacional**
+- **Paquete Premium-> Viajes por el Territorio Europeo**
+- **Paquete Deluxe-> Viajes por todo el Mundo**
+En cada compra solo te podrá tocar un Viaje y será elegido de forma completamente Aleatoria entre todas nuestras opciones de la BBDD.
 
 ### Tecnologías Utilizadas
+El proyecto cuenta con una implementación robusta tanto en el Frontend como en el Backend, utilizando tecnologías modernas y eficientes.
 
 #### Frontend
 - **React**
